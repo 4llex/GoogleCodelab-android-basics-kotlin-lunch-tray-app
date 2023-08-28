@@ -26,3 +26,14 @@ Tips
 
 - Use the provided tests to ensure your app is running as expected
 - DO NOT ALTER THE PROVIDED TESTS
+
+Video
+----
+Lunch Tray App - Codelabs android - Unidad 3 - Parte 1
+https://www.youtube.com/watch?v=QOc96kFEuno
+
+Lunch Tray App - Codelabs android - Unidad 3 - Parte 2
+https://www.youtube.com/watch?v=Da9UOyO0uYI
+
+Lunch Tray App - Codelabs android - Unidad 3 - Parte 3
+https://www.youtube.com/watch?v=cjbr5JGCWpI
