@@ -58,6 +58,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?attr/textAppearanceBody1"
+                    android:onClick='@{() -> viewModel.setAccompaniment("bread")}'
                     android:text='@{viewModel.menuItems["bread"].name}'
                     tools:text="Accompaniment 1" />
 
@@ -86,6 +87,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?attr/textAppearanceBody1"
+                    android:onClick='@{() -> viewModel.setAccompaniment("berries")}'
                     android:text='@{viewModel.menuItems["berries"].name}'
                     tools:text="Accompaniment 2" />
 
@@ -117,6 +119,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?attr/textAppearanceBody1"
+                    android:onClick='@{() -> viewModel.setAccompaniment("pickles")}'
                     android:text='@{viewModel.menuItems["pickles"].name}'
                     tools:text="Accompaniment 3" />
 
@@ -153,6 +156,7 @@
                 style="@style/Widget.LunchTray.TextView.Subtotal"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/divider"
+                android:text="@{@string/subtotal(viewModel.subtotal)}"
                 tools:text="Subtotal $5.00"/>
 
             <!-- TODO: cancel the order when clicked -->
