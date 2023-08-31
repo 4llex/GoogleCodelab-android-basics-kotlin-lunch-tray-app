@@ -37,3 +37,7 @@ https://www.youtube.com/watch?v=Da9UOyO0uYI
 
 Lunch Tray App - Codelabs android - Unidad 3 - Parte 3
 https://www.youtube.com/watch?v=cjbr5JGCWpI
+
+Speedup AS
+----
+https://www.geeksforgeeks.org/how-to-speed-up-android-studio/

@@ -49,6 +49,10 @@ android {
         dataBinding true
         viewBinding true
     }
+
+    dexOptions {
+        incremental true
+    }
 }
 
 dependencies {
