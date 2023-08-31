@@ -172,8 +172,8 @@ class OrderViewModel : ViewModel() {
         _side.value = null
         _accompaniment.value = null
 
-        _subtotal.value = null
-        _total.value = null
-        _tax.value = null
+        _subtotal.value = 0.0
+        _total.value = 0.0
+        _tax.value = 0.0
     }
 }
